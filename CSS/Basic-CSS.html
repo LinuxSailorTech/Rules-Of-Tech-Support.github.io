@@ -1,0 +1,155 @@
+<! DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?faimily=Roboto:200'>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<title>Basic CSS</title>
+</head>
+<body>
+<div>
+<h1>What is CSS</h1>
+<h2>Cascading Style Sheets</h2>
+</div>
+<div id='section1'>
+<h3>Linking a stylesheet</h3>
+<p>When you start a CSS document you do not have to declare the 
+document type or put any special code
+to start the document however in the html document you need to 
+provide a link to the stylesheet like so:</p>
+<div class='code'>
+<p>&lt;link rel="stylesheet" type="text/css" href="CSS.css"&gt;</p>
+</div>
+</div>
+<div>
+<h3>Selecting an Elament</h3>
+<p>In the CSS document a statement is started using a slector for example the code to select the
+paragraph elaments in the html document would look like this</p>
+<div class='code'>
+<p>h1 {<br><br>}</p>
+</div>
+</div>
+<div>
+<h3>Adding Color</h3>
+<p>however to style the code you need to put at least 
+two things inside the body of the selector
+the first attibute we will add to the selector is colour 
+and it is added like so</p>
+<div class=code>
+<p>h1 {<br>  color: firebrick;<br>}</p>
+</div>
+<div>
+<p>You can also colour the background of an elament 
+using the background-color option</p>
+<div class ='code'>
+<p>p {<br>  background-colour: lime;<br>}</p>
+</div>
+</div>
+</div>
+<div>
+<h3>Colours in CSS</h3>
+<div>
+<p>There are four ways of defining a clouour in CSS
+The first way which you have already come accross is using named 
+colours of which there are 147 the second is using RGB values rangeing
+from between 0 and 255 the third is to use a hexadicimal color codes 
+(more on those later) and the last way is using HSL colours.</p>
+</div>
+<div id='rgb'>
+<p>Here is an example of setting colour values using RGB</p>
+<div class='code'>
+<p>p {<br>  color: rgb(255, 0, 0);<br>  background-color: rgb(61,255,255);<br>}</p>
+</div>
+</div>
+<div id='hex'>
+<p>Hexadecimal colour codes are another way to specify colour
+as they offer a huge range of colours (16,777,216) to be exact
+however unlike rgb colours that are specified in base 10 hexadecimal 
+colours are written using base 16 so for example #000000 is black and
+#ffffff is white.<br><br> An advantage of using this colour scheme is 
+that only two characters at most are ever needed per colour and the 
+order of the colours is the same as the rgb scheme (the # at the start
+identifies it as hex code colour) it also means that if the colour
+is made of the same characters it can be abbreviated like so #ff0<br>
+<br>
+here is an example of setting colour values using hexidecimal code</p>
+<div class='code'>
+<p>p {
+  color: #3d3dff;
+  background-color: #ff0;
+}</p>
+</div>
+</div>
+<div id='hsl'>
+<p>HSL stands for Hue Saturation and Lightness<br>
+Hue is What we understand as colour and is represened on what is 
+known as a color wheel and can take any value betweeen 0 and 360<br>
+Saturation is the amount of gray in a colour and is a percentage 
+between 0% and 100% with 0% being gray and 100% being full saturation
+(no gray)<br>
+lightness is the amount of white in a colour it is a percentage with
+0% being black 50% is normal and 100% is white</p>
+<div class='code'>
+<p>p {
+  color: hsl(182, 20%, 50%);
+  background-color: hsl(300, 100%, 40%);
+}</p>
+</div>
+</div>
+</div>
+<div>
+<h2>Font Formatting</h2>
+</div>
+<div id='text1'>
+<h3>Font Family</h3>
+<p>You can change the font family using the 'font-family' property as
+in the example below</p>
+<div class='code'>
+<p>h1 {
+  font-family: Garamond;
+}</p>
+</div>
+</div>
+<div>
+<h3>Font Size<h3>
+<p>Font size is measured in three units</p>
+<div id='size1'>
+<p>The First Unit is Pixels(px)</p>
+</div>
+<div class='code'>
+<p>p {
+  font-size: 32px;
+}</p>
+</div>
+<div id='size2'>
+<p>The Second Unit is Ems ems are a relative unite of measurement as
+it changes the size of the text relative to the size of the elaments
+size of text</p>
+</div>
+<div class='code'>
+<p>p {
+  font-size: 3em;
+}</p>
+</div>
+<div id='size3'>
+<p>The Third and final unit of font size is % which is also a relative
+unit of measurement relative the the default text size of 16px so
+for example if the size was set to 200% the size would be equivelent
+to setting it to 32 px</p>
+</div>
+<div class='code'>
+<p>p {
+  font-size: 200%;
+}</p>
+</div>
+<div>
+<h3>Line Height</h3>
+<div id='lh1'>
+<p>The line-height property can also be set in either pixels or ems ems 
+being the more preferable as it is relative to size of the text on the
+page.</p>
+</div>
+</div>
+</div>
+<p><p>Thats it for CSS for the moment <a href='../Portal.html'>Click Here</a> to go back to the portal page</p></p>
+</body>
+</html>

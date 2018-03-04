@@ -1,0 +1,44 @@
+.code{
+	font-size:16px;
+	border: 3px solid rgba(10, 10, 10, 0.3);
+	white-space: pre-wrap;
+	padding: 1px 5px;
+	display: block;
+	color: #393318;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+	background-color: #eff0f1;
+	line-height: 1em
+}
+h1 {
+	color: firebrick;
+}
+#section1 {
+	background-color:lime
+}
+#rgb{
+	color: rgb(255, 0, 0);
+	background-color: rgb(61,255,255);
+}
+#hex {
+	color: #3d3dff;
+	background-color: #ff0;
+}
+#hsl{
+	color: hsl(120, 100%, 50%);
+	background: hsl(300, 100%, 40%);
+}
+#text1{
+  font-family: Helvetica;
+}
+#size1 {
+font-size: 32px;
+}
+#size2 {
+  font-size: 3em;
+}
+#size3 {
+  font-size: 200%;
+}
+#lh1 {
+	line-height: 4em;
+}
