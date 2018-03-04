@@ -13,6 +13,6 @@ in your favourite web editor.
 If you use one of these layouts, please consider 
 linking to CSS Portal at the following:
 
-http://www.cssportal.com
+http://www.cssportal
 
 ******************************************************
